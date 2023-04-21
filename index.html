@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Crypto Website</title>
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- crypto symbol + cur price -->
+    <div class="left-crypto-hub">
+      <div class="crypto-flexbox">
+        <div class="ticker">BTC</div>
+        <div class="price-left">price</div>
+      </div>
+      <div class="crypto-flexbox">
+        <div class="ticker">ETH</div>
+      </div>
+      <div class="crypto-flexbox">
+        <div class="ticker">LRC</div>
+      </div>
+      <div class="crypto-flexbox">
+        <div class="ticker">USDT</div>
+      </div>
+    </div>
+
+    <!-- current display hub
+    1 flex box (1 full flex on top, 3 flex boxes below)
+    column direction flex
+-->
+    <div class="display-hub">
+      <div class="upper-display-hub">
+        <div class="upper-display-text">AVERAGE PRICE OF BTC</div>
+        <div class="upper-display-text">$420,000.69</div>
+      </div>
+
+      <div class="lower-display-hub">
+        <div class="left-lower">
+          <!-- ADD EXCHANGE LOGO IN left-lower-cont -->
+          <div class="left-lower-cont">
+            <div class="left-lower-left">cheapest exchange</div>
+            <div class="left-lower-left">logo</div>
+          </div>
+          <div class="left-lower-cont">
+            <div class="left-lower-right">Avg Btc Deviation</div>
+            <div class="left-lower-right">% change</div>
+          </div>
+        </div>
+
+        <div class="middle-lower">
+          <div class="middle-cont">
+            <div class="middle-logo">24 1 week 1 month</div>
+            <!-- js script below to change color of green to red depending on x time passed -->
+            <div class="middle-price">javascript price script</div>
+          </div>
+        </div>
+
+        <div class="right-lower">
+          <div class="right-cont">
+            <div class="left-lower-left">priciest exchange</div>
+            <div class="left-lower-left">logo</div>
+          </div>
+          <div class="left-lower-cont">
+            <div class="left-lower-right">Avg Btc Deviation</div>
+            <div class="left-lower-right">% change</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
